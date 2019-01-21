@@ -1,0 +1,11 @@
+Details of the system we are implementing showing the product breakups
+
+1. We will be launching a web application
+2. The application will have user login page
+3. User database will be created where we will store the data of various users
+4. Push notification feature through SMS, e-mail and google notifications.
+5. Availability of blood in nearby blood banks will be shown(if not available then blood will be requested from users)
+
+
+
+

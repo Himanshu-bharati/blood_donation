@@ -1,0 +1,25 @@
+1.Most probably every one out of five patients who is admitted needs blood during any case of emergency. 
+
+
+2.We ask if someone in the patients family or relative has a matching blood group and is capable of donating , 
+if donating is not possible from any then we try to get from our nearest blood bank.
+
+
+3.The problems which we face is that many times if we don't get blood, the relatives or family members of patients
+ start panicking and cannot decide what to do. The situation turns worse w
+hen that blood group is not available even in
+the blood banks. Given that supplies are made by donation only, it would be difficult for hospitals to always
+have enough blood on hand to handle any possible situation.
+On such a situation the patient may die without the appropriate blood transfusion. 
+Until we all improve the continuous supply of blood, there will be similar situations where a patient needs blood,
+and the hospital doesn’t have it.
+
+4.Yes, 
+having a software and connecting people with it may surely be helpful and more and more people will be aware of the 
+situations when during emergency.
+
+5.Automation of getting blood from donors so that blood may be available for transfusion when in need.
+6.We need an easy to use interface for our donors and our staff
+
+ members.
+7.No, we do not have any such software application which is highly popularized for blood donation.

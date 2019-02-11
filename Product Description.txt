@@ -1,0 +1,55 @@
+
+
+  Why a blood donating app?
+
+  - Every year our nation requires about 4 Crore units of blood, out of which only 40 Lakh units of blood are available, which is insubstantial.
+  There is no substituent for blood and also cannot be manufactured . It can only come from voluntary donors.
+
+- Even researchers, who induced pluripotent stem cells to create blood substituents in mice was not successful in manufacturing blood.
+  The compatibility factor plays a great role in this process. The compatibility of blood varies person to person.
+
+- Every 2 seconds blood is needed.
+
+- A staggering amount of 38,000 blood donations are required everyday.
+ 
+- According to R Balamurali Krishna, a total of 30 million blood components are transfused each year.
+  The average red blood cell transfusion is approximately 3 pint
+
+- One pint can approximately save 3 lives.
+  
+  
+  How it can help?
+
+
+  - Donating blood can help:
+
+  ? People who go through disasters or emergency situations.
+
+  ? People who lose blood during major surgeries during operations.
+
+  ? People who lost blood because of a gastrointestinal bleed.
+
+  ? Women who have serious complications during pregnancy or at childbirth. 
+
+  ? People with diseases caused by thalassemia or sickle cell disease.
+
+
+  Features:
+  
+   The features we will be implementing for the easy use of our application.
+  
+   1.Location based voluntary blood donor search.
+
+   2.Blood donor registration: login, edit profile, delete profile and change password.
+   
+   3.Donor's contacts like phone number and address will be made available.
+   
+   4.The details of the donor will be hidden for 56 days after donating(for the person to be able to donate blood again).
+   
+   5.The results will be showed based on the Body Mass Index(BMI) of the person to make sure that the person 
+     is elligible to donate blood.
+   
+   6.Requesting blood in advance will be made available . So, when a blood donor will be found in his/her proximity,
+     the person requesting blood will be notified.
+   
+   7.Also , we will implement the search for availability of blood in nearby blood banks.

@@ -1,0 +1,17 @@
+Classes:
+Donor 
+Recepient
+Blood bank
+Admin
+Login
+Search
+
+Functions:
+DonorDetails()
+RecepientDetails()
+DonarRegistration()
+RecepientRegistration()
+Retrive Details()
+AddBloodDetails()
+UpdateBloodDetails
+LoginCheck()

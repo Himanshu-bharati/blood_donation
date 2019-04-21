@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for C:\xampp\htdocs\SEProject\app</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/nv.d3.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="index.html">C:\xampp\htdocs\SEProject\app</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Http/Middleware/Admin.php.html#7">Admin</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Console/Commands/Inspire.php.html#8">Inspire</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/Handler.php.html#13">Handler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/AuthController.php.html#11">AuthController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/PasswordController.php.html#8">PasswordController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/BloodCenterController.php.html#12">BloodCenterController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/RequestController.php.html#10">RequestController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/adminController.php.html#16">adminController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/apiController.php.html#11">apiController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Flash.php.html#4">Flash</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/Authenticate.php.html#8">Authenticate</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#8">RedirectIfAuthenticated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#16">HomeController</a></td><td class="text-right">5%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#16">HomeController</a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="Http/Controllers/adminController.php.html#16">adminController</a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="Http/Controllers/RequestController.php.html#10">RequestController</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Http/Controllers/apiController.php.html#11">apiController</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Middleware/Authenticate.php.html#8">Authenticate</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#8">RedirectIfAuthenticated</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Http/Middleware/Admin.php.html#16"><abbr title="Admin::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/adminController.php.html#112"><abbr title="adminController::bloodCentres">bloodCentres</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/RequestController.php.html#37"><abbr title="RequestController::requestDetails">requestDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/adminController.php.html#18"><abbr title="adminController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/adminController.php.html#25"><abbr title="adminController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/adminController.php.html#31"><abbr title="adminController::editUser">editUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/adminController.php.html#37"><abbr title="adminController::updateUser">updateUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/adminController.php.html#47"><abbr title="adminController::makeAdmin">makeAdmin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/adminController.php.html#59"><abbr title="adminController::removeAdmin">removeAdmin</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/adminController.php.html#70"><abbr title="adminController::deleteUser">deleteUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/adminController.php.html#81"><abbr title="adminController::camps">camps</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/adminController.php.html#86"><abbr title="adminController::editCamp">editCamp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/adminController.php.html#92"><abbr title="adminController::updateCamp">updateCamp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/adminController.php.html#102"><abbr title="adminController::deleteCamp">deleteCamp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/adminController.php.html#118"><abbr title="adminController::deleteCenter">deleteCenter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/RequestController.php.html#16"><abbr title="RequestController::storeRequest">storeRequest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/adminController.php.html#127"><abbr title="adminController::editCenter">editCenter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/adminController.php.html#133"><abbr title="adminController::updateCenter">updateCenter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/adminController.php.html#145"><abbr title="adminController::deleteSupport">deleteSupport</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/adminController.php.html#155"><abbr title="adminController::support">support</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/adminController.php.html#161"><abbr title="adminController::viewSupport">viewSupport</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/adminController.php.html#166"><abbr title="adminController::reply">reply</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/apiController.php.html#13"><abbr title="apiController::donors">donors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Flash.php.html#6"><abbr title="Flash::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Flash.php.html#16"><abbr title="Flash::info">info</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Flash.php.html#21"><abbr title="Flash::success">success</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Flash.php.html#25"><abbr title="Flash::error">error</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/Authenticate.php.html#18"><abbr title="Authenticate::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/RequestController.php.html#23"><abbr title="RequestController::showRequests">showRequests</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/RequestController.php.html#12"><abbr title="RequestController::requestForm">requestForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Console/Commands/Inspire.php.html#29"><abbr title="Inspire::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#62"><abbr title="HomeController::donorProfile">donorProfile</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/Handler.php.html#35"><abbr title="Handler::report">report</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/Handler.php.html#47"><abbr title="Handler::render">render</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/AuthController.php.html#38"><abbr title="AuthController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/AuthController.php.html#49"><abbr title="AuthController::validator">validator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/AuthController.php.html#64"><abbr title="AuthController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/PasswordController.php.html#28"><abbr title="PasswordController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/BloodCenterController.php.html#14"><abbr title="BloodCenterController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/BloodCenterController.php.html#18"><abbr title="BloodCenterController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/BloodCenterController.php.html#23"><abbr title="BloodCenterController::addCenter">addCenter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/BloodCenterController.php.html#27"><abbr title="BloodCenterController::storeCenter">storeCenter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#39"><abbr title="HomeController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#48"><abbr title="HomeController::donors">donors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#68"><abbr title="HomeController::donorMessage">donorMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#185"><abbr title="HomeController::reply">reply</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#99"><abbr title="HomeController::api">api</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#104"><abbr title="HomeController::camp">camp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#109"><abbr title="HomeController::newCamp">newCamp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#113"><abbr title="HomeController::storeCamp">storeCamp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#121"><abbr title="HomeController::message">message</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#128"><abbr title="HomeController::changePass">changePass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#133"><abbr title="HomeController::updatePass">updatePass</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#145"><abbr title="HomeController::settings">settings</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#151"><abbr title="HomeController::updateUser">updateUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#163"><abbr title="HomeController::support">support</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#172"><abbr title="HomeController::storeSupport">storeSupport</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#180"><abbr title="HomeController::terms">terms</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#18"><abbr title="RedirectIfAuthenticated::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#48"><abbr title="HomeController::donors">donors</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Controllers/RequestController.php.html#23"><abbr title="RequestController::showRequests">showRequests</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="Http/Controllers/apiController.php.html#13"><abbr title="apiController::donors">donors</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Middleware/Authenticate.php.html#18"><abbr title="Authenticate::handle">handle</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#121"><abbr title="HomeController::message">message</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/HomeController.php.html#163"><abbr title="HomeController::support">support</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/adminController.php.html#18"><abbr title="adminController::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#18"><abbr title="RedirectIfAuthenticated::handle">handle</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.2.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.3.1</a> and <a href="https://phpunit.de/">PHPUnit 4.8.36</a> at Mon Apr 8 10:31:40 UTC 2019.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="js/jquery.min.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="js/holder.min.js" type="text/javascript"></script>
+  <script src="js/d3.min.js" type="text/javascript"></script>
+  <script src="js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([12,1,0,0,0,0,0,0,0,0,0,17], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([59,0,0,0,0,0,0,0,0,0,0,9], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Http\/Middleware\/Admin.php.html#7\">Admin<\/a>"],[100,0,"<a href=\"BloodCenter.php.html#7\">BloodCenter<\/a>"],[100,0,"<a href=\"BloodRequest.php.html#7\">BloodRequest<\/a>"],[100,0,"<a href=\"Camp.php.html#7\">Camp<\/a>"],[0,1,"<a href=\"Console\/Commands\/Inspire.php.html#8\">Inspire<\/a>"],[100,0,"<a href=\"Http\/Kernel.php.html#7\">Kernel<\/a>"],[100,0,"<a href=\"Events\/Event.php.html#5\">Event<\/a>"],[0,2,"<a href=\"Exceptions\/Handler.php.html#13\">Handler<\/a>"],[0,3,"<a href=\"Http\/Controllers\/Auth\/AuthController.php.html#11\">AuthController<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/PasswordController.php.html#8\">PasswordController<\/a>"],[0,4,"<a href=\"Http\/Controllers\/BloodCenterController.php.html#12\">BloodCenterController<\/a>"],[100,0,"<a href=\"Http\/Controllers\/Controller.php.html#10\">Controller<\/a>"],[5.47945205479452,25,"<a href=\"Http\/Controllers\/HomeController.php.html#16\">HomeController<\/a>"],[0,8,"<a href=\"Http\/Controllers\/RequestController.php.html#10\">RequestController<\/a>"],[0,20,"<a href=\"Http\/Controllers\/adminController.php.html#16\">adminController<\/a>"],[0,4,"<a href=\"Http\/Controllers\/apiController.php.html#11\">apiController<\/a>"],[0,4,"<a href=\"Http\/Flash.php.html#4\">Flash<\/a>"],[0,3,"<a href=\"Http\/Middleware\/Authenticate.php.html#8\">Authenticate<\/a>"],[100,0,"<a href=\"Http\/Middleware\/EncryptCookies.php.html#7\">EncryptCookies<\/a>"],[0,2,"<a href=\"Http\/Middleware\/RedirectIfAuthenticated.php.html#8\">RedirectIfAuthenticated<\/a>"],[100,0,"<a href=\"Http\/Middleware\/VerifyCsrfToken.php.html#7\">VerifyCsrfToken<\/a>"],[100,0,"<a href=\"Http\/Requests\/Request.php.html#7\">Request<\/a>"],[100,0,"<a href=\"Jobs\/Job.php.html#7\">Job<\/a>"],[100,0,"<a href=\"Messages.php.html#7\">Messages<\/a>"],[100,2,"<a href=\"Providers\/AppServiceProvider.php.html#7\">AppServiceProvider<\/a>"],[100,1,"<a href=\"Providers\/AuthServiceProvider.php.html#8\">AuthServiceProvider<\/a>"],[100,1,"<a href=\"Providers\/EventServiceProvider.php.html#8\">EventServiceProvider<\/a>"],[100,3,"<a href=\"Providers\/RouteServiceProvider.php.html#8\">RouteServiceProvider<\/a>"],[100,0,"<a href=\"Support.php.html#7\">Support<\/a>"],[100,0,"<a href=\"User.php.html#7\">User<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Http\/Middleware\/Admin.php.html#16\">Admin::handle<\/a>"],[0,1,"<a href=\"Console\/Commands\/Inspire.php.html#29\">Inspire::handle<\/a>"],[0,1,"<a href=\"Exceptions\/Handler.php.html#35\">Handler::report<\/a>"],[0,1,"<a href=\"Exceptions\/Handler.php.html#47\">Handler::render<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/AuthController.php.html#38\">AuthController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/AuthController.php.html#49\">AuthController::validator<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/AuthController.php.html#64\">AuthController::create<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/PasswordController.php.html#28\">PasswordController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/BloodCenterController.php.html#14\">BloodCenterController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/BloodCenterController.php.html#18\">BloodCenterController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/BloodCenterController.php.html#23\">BloodCenterController::addCenter<\/a>"],[0,1,"<a href=\"Http\/Controllers\/BloodCenterController.php.html#27\">BloodCenterController::storeCenter<\/a>"],[100,1,"<a href=\"Http\/Controllers\/HomeController.php.html#23\">HomeController::__construct<\/a>"],[100,1,"<a href=\"Http\/Controllers\/HomeController.php.html#28\">HomeController::home<\/a>"],[0,1,"<a href=\"Http\/Controllers\/HomeController.php.html#39\">HomeController::index<\/a>"],[0,5,"<a href=\"Http\/Controllers\/HomeController.php.html#48\">HomeController::donors<\/a>"],[0,1,"<a href=\"Http\/Controllers\/HomeController.php.html#62\">HomeController::donorProfile<\/a>"],[0,1,"<a href=\"Http\/Controllers\/HomeController.php.html#68\">HomeController::donorMessage<\/a>"],[0,1,"<a href=\"Http\/Controllers\/HomeController.php.html#99\">HomeController::api<\/a>"],[0,1,"<a href=\"Http\/Controllers\/HomeController.php.html#104\">HomeController::camp<\/a>"],[0,1,"<a href=\"Http\/Controllers\/HomeController.php.html#109\">HomeController::newCamp<\/a>"],[0,1,"<a href=\"Http\/Controllers\/HomeController.php.html#113\">HomeController::storeCamp<\/a>"],[0,2,"<a href=\"Http\/Controllers\/HomeController.php.html#121\">HomeController::message<\/a>"],[0,1,"<a href=\"Http\/Controllers\/HomeController.php.html#128\">HomeController::changePass<\/a>"],[0,1,"<a href=\"Http\/Controllers\/HomeController.php.html#133\">HomeController::updatePass<\/a>"],[0,1,"<a href=\"Http\/Controllers\/HomeController.php.html#145\">HomeController::settings<\/a>"],[0,1,"<a href=\"Http\/Controllers\/HomeController.php.html#151\">HomeController::updateUser<\/a>"],[0,2,"<a href=\"Http\/Controllers\/HomeController.php.html#163\">HomeController::support<\/a>"],[0,1,"<a href=\"Http\/Controllers\/HomeController.php.html#172\">HomeController::storeSupport<\/a>"],[0,1,"<a href=\"Http\/Controllers\/HomeController.php.html#180\">HomeController::terms<\/a>"],[0,1,"<a href=\"Http\/Controllers\/HomeController.php.html#185\">HomeController::reply<\/a>"],[0,1,"<a href=\"Http\/Controllers\/RequestController.php.html#12\">RequestController::requestForm<\/a>"],[0,1,"<a href=\"Http\/Controllers\/RequestController.php.html#16\">RequestController::storeRequest<\/a>"],[0,5,"<a href=\"Http\/Controllers\/RequestController.php.html#23\">RequestController::showRequests<\/a>"],[0,1,"<a href=\"Http\/Controllers\/RequestController.php.html#37\">RequestController::requestDetails<\/a>"],[0,2,"<a href=\"Http\/Controllers\/adminController.php.html#18\">adminController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/adminController.php.html#25\">adminController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/adminController.php.html#31\">adminController::editUser<\/a>"],[0,1,"<a href=\"Http\/Controllers\/adminController.php.html#37\">adminController::updateUser<\/a>"],[0,1,"<a href=\"Http\/Controllers\/adminController.php.html#47\">adminController::makeAdmin<\/a>"],[0,1,"<a href=\"Http\/Controllers\/adminController.php.html#59\">adminController::removeAdmin<\/a>"],[0,1,"<a href=\"Http\/Controllers\/adminController.php.html#70\">adminController::deleteUser<\/a>"],[0,1,"<a href=\"Http\/Controllers\/adminController.php.html#81\">adminController::camps<\/a>"],[0,1,"<a href=\"Http\/Controllers\/adminController.php.html#86\">adminController::editCamp<\/a>"],[0,1,"<a href=\"Http\/Controllers\/adminController.php.html#92\">adminController::updateCamp<\/a>"],[0,1,"<a href=\"Http\/Controllers\/adminController.php.html#102\">adminController::deleteCamp<\/a>"],[0,1,"<a href=\"Http\/Controllers\/adminController.php.html#112\">adminController::bloodCentres<\/a>"],[0,1,"<a href=\"Http\/Controllers\/adminController.php.html#118\">adminController::deleteCenter<\/a>"],[0,1,"<a href=\"Http\/Controllers\/adminController.php.html#127\">adminController::editCenter<\/a>"],[0,1,"<a href=\"Http\/Controllers\/adminController.php.html#133\">adminController::updateCenter<\/a>"],[0,1,"<a href=\"Http\/Controllers\/adminController.php.html#145\">adminController::deleteSupport<\/a>"],[0,1,"<a href=\"Http\/Controllers\/adminController.php.html#155\">adminController::support<\/a>"],[0,1,"<a href=\"Http\/Controllers\/adminController.php.html#161\">adminController::viewSupport<\/a>"],[0,1,"<a href=\"Http\/Controllers\/adminController.php.html#166\">adminController::reply<\/a>"],[0,4,"<a href=\"Http\/Controllers\/apiController.php.html#13\">apiController::donors<\/a>"],[0,1,"<a href=\"Http\/Flash.php.html#6\">Flash::create<\/a>"],[0,1,"<a href=\"Http\/Flash.php.html#16\">Flash::info<\/a>"],[0,1,"<a href=\"Http\/Flash.php.html#21\">Flash::success<\/a>"],[0,1,"<a href=\"Http\/Flash.php.html#25\">Flash::error<\/a>"],[0,3,"<a href=\"Http\/Middleware\/Authenticate.php.html#18\">Authenticate::handle<\/a>"],[0,2,"<a href=\"Http\/Middleware\/RedirectIfAuthenticated.php.html#18\">RedirectIfAuthenticated::handle<\/a>"],[100,1,"<a href=\"Providers\/AppServiceProvider.php.html#14\">AppServiceProvider::boot<\/a>"],[100,1,"<a href=\"Providers\/AppServiceProvider.php.html#24\">AppServiceProvider::register<\/a>"],[100,1,"<a href=\"Providers\/AuthServiceProvider.php.html#25\">AuthServiceProvider::boot<\/a>"],[100,1,"<a href=\"Providers\/EventServiceProvider.php.html#27\">EventServiceProvider::boot<\/a>"],[100,1,"<a href=\"Providers\/RouteServiceProvider.php.html#25\">RouteServiceProvider::boot<\/a>"],[100,1,"<a href=\"Providers\/RouteServiceProvider.php.html#38\">RouteServiceProvider::map<\/a>"],[100,1,"<a href=\"Providers\/RouteServiceProvider.php.html#40\">RouteServiceProvider::anonymous function<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
